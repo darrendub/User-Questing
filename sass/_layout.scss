@@ -16,13 +16,24 @@ input {
 	border: none;
     border-radius: 4px;
     padding: $base-unit*2;
-	width: 50%;
+	width: 40%;
 	@media (min-width: $screen-sm) {
 		width: 25%;
 	}
 }
 
-button {
+.email {
+	padding: $base-unit*2 $base-unit*2;
+	background: $smoke;
+	border: 0;
+	border-radius: 0 4px 4px 0;
+	color: $midnight;
+	font-weight: bold;
+	margin-left: -$base-unit*2;
+	margin-right: $base-unit;
+}
+
+.sign-up {
 	padding: $base-unit*2 $base-unit*4 ;
 	background: $mint;
 	border: 0;
@@ -30,6 +41,7 @@ button {
 	color: $white;
 	font-weight: bold;
 	cursor: pointer;
+	margin-top: $base-unit*2;
 }
 
 .logo {
